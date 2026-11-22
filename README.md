@@ -1,4 +1,4 @@
-![Status: Experimental](https://img.shields.io/badge/Status-Experimental-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/felipetjmj1.github.io)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
+![Status: Site em desenvolvimento](https://img.shields.io/badge/Status-Site%20em%20desenvolvimento-blue) | [![Licença MIT](https://img.shields.io/github/license/felipetjmg1-bit/felipetjmj1.github.io)](LICENSE) | [![Patrocinar](https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors)](https://github.com/sponsors/felipetjmg1-bit)
 
 <p align="center"><img src="PROJECT-OVERVIEW.svg" alt="Diagrama explicativo de Painel Impulso Digital" width="100%"></p>
 
@@ -42,7 +42,7 @@ Exemplo limitado ao que o HTML realmente oferece: abrir a página principal e se
 
 ## Estado e limitações
 
-**Maturidade indicada:** Experimental.
+**Estado de entrega:** painel estático de apresentação.
 
 - Os valores de confiança, latência, área, alertas, supply e holders aparecem como conteúdo fixo no HTML; os logs adicionais são gerados por listas de mensagens aleatórias no próprio JavaScript. Não os apresente como dados medidos ou monitoramento real sem evidência independente.
 - A única atualização dinâmica observada é o relógio local e a animação dos logs; não há integração de dados/API demonstrada no HTML inspecionado.
