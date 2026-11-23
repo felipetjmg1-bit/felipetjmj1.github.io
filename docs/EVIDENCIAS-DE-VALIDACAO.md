@@ -32,4 +32,4 @@ Atualizado em 23/11/2026. Esta página registra apenas evidências consultadas n
 
 O workflow [Portfolio visual verification](../.github/workflows/portfolio-visual.yml) inicia o portal estático, verifica a presença dos 33 cartões e seus links, testa a busca e salva capturas reais do painel e do catálogo em desktop e mobile como artefato da execução. Essas capturas documentam somente o portal web estático, não os 33 sistemas listados.
 
-Artefatos de captura: consulte a aba **Actions**, abra a execução mais recente de **Portfolio visual verification** e baixe `impulso-digital-portfolio-screenshots`.
+Execução visual aprovada em 23/11/2026: [abrir workflow e baixar o artefato](https://github.com/felipetjmg1-bit/felipetjmj1.github.io/actions/runs/45159975843). O artefato `impulso-digital-portfolio-screenshots` contém quatro capturas PNG: catálogo desktop, resultado da busca, painel desktop e catálogo/painel mobile. As capturas são do portal estático, não dos 33 sistemas listados.
