@@ -15,7 +15,7 @@ try {
   if (total !== 33) throw new Error(`Expected 33 project cards, found ${total}`);
 
   const brokenCards = await cards.evaluateAll(nodes => nodes
-    .filter(node => node.querySelectorAll("a[href]").length !== 3)
+    .filter(node => node.querySelectorAll("a[href]").length < 3)
     .map(node => node.querySelector("h2")?.textContent?.trim() || "untitled"));
   if (brokenCards.length) throw new Error(`Cards missing required navigation links: ${brokenCards.join(", ")}`);
 
