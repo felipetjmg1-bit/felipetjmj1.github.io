@@ -21,8 +21,7 @@ try {
 
   await page.screenshot({ path: "artifacts/portfolio-desktop.png", fullPage: true });
   await page.getByRole("searchbox", { name: "Buscar projetos" }).fill("oraculo");
-  const filtered = await cards.count();
-  const visible = await cards.filter({ hasText: /Oráculo/i }).count();
+  const visible = await cards.filter({ hasText: /Oráculo/i }).evaluateAll(nodes => nodes.filter(node => !node.hidden).length);
   if (visible < 1) throw new Error("Project search did not return Oráculo");
   await page.screenshot({ path: "artifacts/portfolio-search.png", fullPage: true });
 
