@@ -70,3 +70,8 @@ O desenvolvimento aberto exige tempo para manutenção, documentação, testes, 
 ## Fluxo passo a passo
 
 Consulte o [guia textual com as etapas do projeto](docs/PROCESSO-PASSO-A-PASSO.md). O infográfico acima resume visualmente o mesmo fluxo.
+
+
+## Catálogo completo
+
+Acesse o [portfólio navegável com os 33 projetos](./portfolio.html). Cada cartão reúne o repositório, o infográfico explicativo e o guia passo a passo. O catálogo é um índice de documentação, não uma declaração de que todos os projetos estejam em produção.
