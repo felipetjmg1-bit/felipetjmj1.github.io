@@ -17,7 +17,7 @@ try {
   const brokenCards = await cards.evaluateAll(nodes => nodes
     .filter(node => node.querySelectorAll("a[href]").length !== 3)
     .map(node => node.querySelector("h2")?.textContent?.trim() || "untitled"));
-  if (brokenCards.length) throw new Error(`Cards without all three links: ${brokenCards.join(", ")}`);
+  if (brokenCards.length) throw new Error(`Cards missing required navigation links: ${brokenCards.join(", ")}`);
 
   await page.screenshot({ path: "artifacts/portfolio-desktop.png", fullPage: true });
   await page.getByRole("searchbox", { name: "Buscar projetos" }).fill("oraculo");
